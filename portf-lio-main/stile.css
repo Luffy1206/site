@@ -1,0 +1,33 @@
+body{
+    font-family: "oldlondon";
+    background-color: #A3E1D2;
+}
+.menu{
+    background-color: #D6F5D0;
+    margin: 20;
+    border: 2px solid  #000000;
+    padding: 20 ;
+    justify-content: center;
+
+}
+
+.menu h1{
+    margin-left: 50;
+    font-size: 100;
+}
+
+.grid{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ 
+@font-face {
+    font-family: oldlondon;
+    src: url("OldLondon.ttf");
+}
+
+.iten{
+  width: 50;
+  height: 50;
+}
